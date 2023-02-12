@@ -6,7 +6,7 @@ __all__ = ["XYDataset"]
 
 class XYDataset(Dataset):
 
-    def __init__(self,x: torch.Tensor, y: torch.Tensor):
+    def __init__(self, x: torch.Tensor, y: torch.Tensor):
         self.x = x
         self.y = y
 
